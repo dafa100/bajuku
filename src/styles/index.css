@@ -1,0 +1,166 @@
+/* Color Palette */
+:root {
+  --primary-brown: #8b5a3c;
+  --secondary-brown: #a0825d;
+  --light-brown: #d4c5b9;
+  --very-light-brown: #f5f1ed;
+  --dark-brown: #5c3d28;
+  --accent-bronze: #cd853f;
+
+  --text-dark: #2c2c2c;
+  --text-light: #666666;
+  --white: #ffffff;
+  --border-color: #e8dfd8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--white);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary-brown);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-brown);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-bronze);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 90, 60, 0.2);
+}
+
+/* CTA Buttons */
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button.primary {
+  background-color: var(--primary-brown);
+  color: var(--white);
+}
+
+.cta-button.primary:hover {
+  background-color: var(--dark-brown);
+  box-shadow: 0 6px 20px rgba(139, 90, 60, 0.3);
+}
+
+.cta-button.secondary {
+  background-color: var(--accent-bronze);
+  color: var(--white);
+}
+
+.cta-button.secondary:hover {
+  background-color: var(--primary-brown);
+  box-shadow: 0 6px 20px rgba(139, 90, 60, 0.3);
+}
+
+/* Sections */
+section {
+  padding: 80px 0;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* Loading and Error States */
+.loading,
+.error,
+.no-products {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--very-light-brown);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.loading p,
+.error p,
+.no-products p {
+  margin: 0;
+  color: var(--text-dark);
+}
+
+.error {
+  background-color: #ffe8e8;
+  color: #c63b3b;
+}
+
+.error p {
+  color: #c63b3b;
+}

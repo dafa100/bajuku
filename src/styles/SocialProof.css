@@ -1,0 +1,59 @@
+/* Social Proof Section */
+.social-proof {
+  background-color: var(--very-light-brown);
+  padding: 80px 0;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.testimonial-card {
+  background-color: var(--white);
+  padding: 35px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(139, 90, 60, 0.08);
+  transition: all 0.3s ease;
+  border-left: 5px solid var(--primary-brown);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(139, 90, 60, 0.15);
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: var(--accent-bronze);
+}
+
+.testimonial-text {
+  color: var(--text-dark);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.testimonial-name {
+  color: var(--primary-brown);
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .testimonial-card {
+    padding: 25px 20px;
+  }
+}
