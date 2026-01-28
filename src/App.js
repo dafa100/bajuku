@@ -35,10 +35,10 @@ function App() {
           <div className="footer-section">
             <h4>Ikuti Kami</h4>
             <div className="social-links">
-              <a href="#" aria-label="Instagram">
+              <a href="/" aria-label="Instagram">
                 <FontAwesomeIcon icon={faHeart} />
               </a>
-              <a href="#" aria-label="TikTok">
+              <a href="/" aria-label="TikTok">
                 <FontAwesomeIcon icon={faStar} />
               </a>
             </div>

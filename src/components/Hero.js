@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faShoppingCart,
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Hero.css";
@@ -23,13 +24,7 @@ function Hero() {
       </div>
       <div className="hero-image">
         <div className="image-placeholder">
-          <img
-            style={{ width: "100%",
-            height: "100%"
-             }}
-            src="https://clothes-products-1396951332.cos.ap-jakarta.myqcloud.com/siswa_siswi.png"
-            alt="Hero Image"
-          />
+          <FontAwesomeIcon icon={faShoppingCart} />
         </div>
       </div>
     </section>
