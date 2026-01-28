@@ -41,15 +41,9 @@ npm start
 npm build
 ```
 
-Aplikasi akan berjalan di `http://localhost:3000`
-
 ## 🎯 Integrasi Contentful
 
 Project sudah dikonfigurasi dengan Contentful CMS:
-
-- **Space ID**: xvvmez1zs93z
-- **Access Token**: IQDTYzjpiMAnFaAzYmUlzAsWaPYziaLu1KdL8BDHnls
-- **Content Type**: clothes
 
 Data produk akan otomatis ditampilkan dari Contentful CMS di Product List section.
 
