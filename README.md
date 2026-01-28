@@ -47,11 +47,23 @@ Aplikasi akan berjalan di `http://localhost:3000`
 
 Project sudah dikonfigurasi dengan Contentful CMS:
 
-- **Space ID**: xvvmez1zs93z
-- **Access Token**: IQDTYzjpiMAnFaAzYmUlzAsWaPYziaLu1KdL8BDHnls
+- **Space ID**: Lihat file `.env`
+- **Access Token**: Lihat file `.env` (Jangan share credentials!)
 - **Content Type**: clothes
 
 Data produk akan otomatis ditampilkan dari Contentful CMS di Product List section.
+
+### Setup Environment Variables:
+
+1. Buat file `.env` di root project
+2. Tambahkan:
+
+```
+REACT_APP_CONTENTFUL_SPACE_ID=your_space_id
+REACT_APP_CONTENTFUL_ACCESS_TOKEN=your_access_token
+```
+
+3. Jangan pernah commit file `.env` ke repository
 
 ## 🎨 Color Palette
 

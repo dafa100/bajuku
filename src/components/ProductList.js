@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import "../styles/ProductList.css";
 
-const CONTENTFUL_SPACE_ID = "xvvmez1zs93z";
-const CONTENTFUL_ACCESS_TOKEN = "IQDTYzjpiMAnFaAzYmUlzAsWaPYziaLu1KdL8BDHnls";
+const CONTENTFUL_SPACE_ID = process.env.REACT_APP_CONTENTFUL_SPACE_ID;
+const CONTENTFUL_ACCESS_TOKEN = process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN;
 
 function ProductList() {
   const [products, setProducts] = useState([]);
