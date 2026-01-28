@@ -45,18 +45,6 @@ npm build
 
 Data produk akan otomatis ditampilkan dari Contentful CMS di Product List section.
 
-### Setup Environment Variables:
-
-1. Buat file `.env` di root project
-2. Tambahkan:
-
-```
-REACT_APP_CONTENTFUL_SPACE_ID=your_space_id
-REACT_APP_CONTENTFUL_ACCESS_TOKEN=your_access_token
-```
-
-3. Jangan pernah commit file `.env` ke repository
-
 ## 🎨 Color Palette
 
 - **Primary Brown**: #8B5A3C
