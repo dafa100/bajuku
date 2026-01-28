@@ -43,8 +43,6 @@ npm build
 
 ## 🎯 Integrasi Contentful
 
-Project sudah dikonfigurasi dengan Contentful CMS:
-
 Data produk akan otomatis ditampilkan dari Contentful CMS di Product List section.
 
 ## 🎨 Color Palette
