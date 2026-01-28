@@ -71,10 +71,4 @@ Data produk akan otomatis ditampilkan dari Contentful CMS di Product List sectio
 - Font Awesome 6.4
 - Create React App
 
-## 📞 Kontak
-
-WhatsApp: 012345678910
-
----
-
 **Made with ❤️ for Bajuku Fashion Brand**
