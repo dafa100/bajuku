@@ -39,7 +39,8 @@
 }
 
 .cta-section .cta-button:hover {
-  color: var(--primary-brown);
+  background-color: var(--white);
+  color: var(--white);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
